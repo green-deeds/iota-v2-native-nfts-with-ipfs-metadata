@@ -1,0 +1,11 @@
+{
+	"WebAPI": "https://iota2-devnet.tanglebay.com",
+	"basic_auth": {
+	  "enabled": false,
+	  "username": "goshimmer",
+	  "password": "goshimmer"
+	},
+	"reuse_addresses": false,
+	"faucetPowDifficulty": 25,
+	"assetRegistryNetwork": "nectar"
+}
