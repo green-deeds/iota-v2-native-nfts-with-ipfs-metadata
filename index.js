@@ -4,6 +4,8 @@ const app = express()
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+var cors = require('cors')
+app.use(cors())
 
 const { mint, create_metadata } = require('./src/nft')
 
