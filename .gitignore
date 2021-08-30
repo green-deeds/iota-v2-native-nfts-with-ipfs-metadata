@@ -2,3 +2,4 @@
 node_modules
 wallet.dat
 wallet.dat.bkp
+.DS_Store
