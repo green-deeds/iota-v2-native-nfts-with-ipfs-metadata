@@ -11,6 +11,7 @@ const create_metadata = function () {
         const metadata = await client.store({
             name: 'Tree NFT',
             description: 'The first Tree NFT',
+            height: Math.floor(Math.random() * 42) + 1,
             image: new File([/* data */], 'tree.jpg', { type: 'image/jpg' })
         })
         console.log(metadata)
