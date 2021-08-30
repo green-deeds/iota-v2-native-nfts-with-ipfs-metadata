@@ -1,0 +1,1 @@
+{"title":"Asset Metadata","type":"object","properties":{"name":{"type":"string","description":"MyFirstNFT"},"description":{"type":"string","description":"My very first NFT that has this metadata with an IPFS file attached to it."},"ipfs":{"type":"string","description":"ipfs://bafyreid3qkpl5wpamn5swr6qdcepwow64ubpibsxhoz3o55qqrcg6eak4u/metadata.json"}}}
